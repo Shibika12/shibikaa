@@ -1,0 +1,19 @@
+.img{
+    position: relative;  /* Set the position to relative to contain the absolute positioning of the overlay */
+    width: 1500px;
+    height: 100vh; 
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    background-color: #2E2E2E;
+    text-align: center;         
+    padding: 20px;
+    border-radius: 26px;
+    opacity: 60%;
+
+}
+
